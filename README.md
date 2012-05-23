@@ -4,19 +4,21 @@ This gem provides YandexMapKit support for RubyMotion. YandexMapKit is MapKit-li
 
 ## Installation
 
-1. Update your Rakefile:
+### Update your Rakefile
 
 ```ruby
 require 'motion-yandexmapkit'
 ```
 
-2. Install the map support files into your resources:
+### Install the map support files into your resources
 
 ```bash
 $ rake yandexmapkit:install
 ```
 
-3. Get the API key by mailing [support@mobmaps.yandex.ru](mailto:support@mobmaps.yandex.ru) with subject "Yandex.Mobmaps" and a description of your plans on using the framework.
+### Get the API key
+
+You can obtain the API key by mailing [support@mobmaps.yandex.ru](mailto:support@mobmaps.yandex.ru) with subject "Yandex.Mobmaps" and a description of your plans on using the framework.
 
 ## Sample Project
 
