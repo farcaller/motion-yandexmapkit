@@ -1,0 +1,143 @@
+/*
+ * YMKLocalizable.strings
+ *
+ * This file is a part of the Yandex Map Kit.
+ *
+ * Version for iOS © 2011 YANDEX
+ * 
+ * You may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at http://legal.yandex.ru/mapkit/
+ */
+
+/* Действие на маршруте */
+"YMKRouteActionSilent" = "Продолжать движение";
+"YMKRouteActionTurnRight" = "Направо";
+"YMKRouteActionTurnLeft" = "Налево";
+"YMKRouteActionHardTurnRight" = "Круто направо";
+"YMKRouteActionHardTurnLeft" = "Круто налево";
+"YMKRouteActionTakeRight" = "Правее";
+"YMKRouteActionTakeLeft" = "Левее";
+"YMKRouteActionForward" = "Прямо";
+"YMKRouteActionTurnBack" = "Разворот";
+
+/* Спуск с трассы */
+"YMKRouteExitFlag" = "Съезд";
+
+/* Формат вывода длины маршрута */
+"RouteLengthFormat"  = "%@ км.";
+
+/* Приставка к описанию маршрута в случае, если он построен с учётом пробок */
+"RouteIncludesTrafficInfo" = "с учётом пробок";
+
+/* Приставка к описанию маршрута в случае, если он построен без учёта пробок */
+"RouteDoesNotIncludeTrafficInfo" = "без учёта пробок";
+
+/* с. ш. */
+"NorthLat" = " с.ш.";
+
+/* ю. ш. */
+"SouthLat" = " ю.ш.";
+
+/* в. д. */
+"EastLon" = " в.д.";
+
+/* з. в. */
+"WestLon" = " з.д.";
+
+/* Заголовок аннотации местоположения пользователя */
+"YMKUserLocationTitle" = "Моё местоположение";
+
+/* Accessibility label for user location */
+"YMUserLocationMarkerViewAccessibilityLabel" = "Моё местоположение";
+
+/* Accessibility label for + button */
+"AccessibilityLabelButtonZoomPlus" = "Увеличить масштаб";
+		
+/* Accessibility label for - button */
+"AccessibilityLabelButtonZoomMinus" = "Уменьшить масштаб";
+
+/* формат времени в минутах (10 мин.) */
+"LocalizationTimeFormatInMinutes" = "%.0f мин.";
+
+/* формат времени в часах и минутах (1 ч. 10 мин.) */
+"LocalizationTimeFormatInHoursAndMinutes" = "%.0f ч. %.0f мин.";
+
+/* формат времени в часах (1 ч.) */
+"LocalizationTimeFormatInHours" = "%.0f ч.";
+
+/* формат времени в днях и часах (1 д. 10 ч.) */
+"LocalizationTimeFormatInDaysAndHours" = "%.0f д. %.0f ч.";
+
+/* формат времени в днях (10 д.) */
+"LocalizationTimeFormatInDays" = "%.0f д.";
+
+/* формат растояний в метрах (10 м) */
+"LocalizationDistanceInMeters" = "%.0f м";
+
+/* формат растояний в киллометрах с одним занаклм после запятой (1.1 км) */
+"LocalizationDistanceInKilometersDiginAfterPoint" = "%.1f км";
+
+/* формат растояний в киллометрах (10 км) */
+"LocalizationDistanceInKilometers" = "%.0f км";
+
+// Единица измерения времени "min."
+"LocalizationTimeFormatUnitMinutes" = "мин.";
+
+// Формат времени для "min." "%.0f"
+"LocalizationTimeFormatValueMinutes" = "%.0f";
+
+// Единица измерения времени "h."
+"LocalizationTimeFormatUnitHours" = "ч.";
+
+// Формат времени для "h." "%.0f"
+"LocalizationTimeFormatValueHours" = "%.0f";
+
+// Единица измерения времени "d."
+"LocalizationTimeFormatUnitDays" = "д.";
+
+// Формат времени для "d." "%.0f" 
+"LocalizationTimeFormatValueDays" = "%.0f";
+
+// Единица измерения расстояния "m"
+"LocalizationDistanceFormatUnitMeters" = "м";                   
+
+// Формат расстояния для "m" "%.0f"
+"LocalizationDistanceFormatValueMeters" = "%.0f";                  
+
+// Единица измерения расстояния "km" дробная
+"LocalizationDistanceFormatUnitKilometersFractional" = "км";     
+
+// Формат расстояния для "km" дробного "%.1f"
+"LocalizationDistanceFormatValueKilometersFractional" = "%1.f";    
+
+// Единица измерения расстояния "km"
+"LocalizationDistanceFormatUnitKilometers" = "км";               
+
+// Формат расстояния для "km" "%.0f"
+"LocalizationDistanceFormatValueKilometers" = "%.0f";              
+
+/* Приставка к описанию растояния которое предстоит пройти пешком */
+"RouteOnFoot" = "пешком";
+
+/* The number of changes shown in the route description */
+"%[one]d changes" = "%d пересадка";
+"%[some]d changes" = "%d пересадки";
+"%[many]d changes" = "%d пересадок";
+
+/* Префикс для списка автобусов в подзаголовке балуна остановки общ. транспорта */
+"YMKMetaInformationGeoPointSubtitlePrefixBus" = "А";
+
+/* Префикс для списка трамваев в подзаголовке балуна остановки общ. транспорта */
+"YMKMetaInformationGeoPointSubtitlePrefixTramway" = "Т";
+
+/* Префикс для списка троллейбусов в подзаголовке балуна остановки общ. транспорта */
+"YMKMetaInformationGeoPointSubtitlePrefixTrolleybus" = "Тр";
+
+/* Формат подписи масштабной линейки на карте для единиц измерения километры */
+"RulerKilometersFormatString" = "%.1f км";
+
+/* Формат подписи масштабной линейки на карте для единиц измерения метры */
+"RulerMetersFormatString" = "%.0f м";
+
+/* The error message shown when a route has failed to be built between the given two points. */
+"RouteRequestResponceEmptyErrorMessage" = "Не удалось построить маршрут.";
