@@ -1,29 +1,21 @@
-# Motion::Yandexmapkit
+# Motion::YandexMapKit
 
-TODO: Write a gem description
+This gem provides YandexMapKit support for RubyMotion. YandexMapKit is MapKit-like framework based on Yandex.com own maps and navigation data.
+
+## Sample Project
+
+Please check the [official demo](https://github.com/yandexmobile/yandexmapkit-ios/) for now.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Update your Rakefile:
 
-    gem 'motion-yandexmapkit'
+```ruby
+require 'motion-yandexmapkit'
+```
 
-And then execute:
+Install the map support files into your resources:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install motion-yandexmapkit
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+```bash
+$ rake yandexmapkit:install
+```
