@@ -14,4 +14,23 @@ Gem::Specification.new do |gem|
   gem.name          = "motion-yandexmapkit"
   gem.require_paths = ["lib"]
   gem.version       = Motion::YandexMapKit::VERSION
+  
+  gem.motion(gem.name) do |motion|
+    root_path = File.expand_path('..', __FILE__)
+    yandexMapKitRoot = File.join(root_path, 'YandexMapKit')
+
+    motion.vendor_project(yandexMapKitRoot, :static, headers_dir: 'Headers')
+
+    motion.frameworks = [
+      'AVFoundation', 'CoreData', 'CoreLocation', 'QuartzCore', 'MessageUI',
+      'OpenGLES', 'Security', 'SystemConfiguration'
+    ]
+
+    motion.libs = [
+      '/usr/lib/libsqlite3.dylib', '/usr/lib/libstdc++.dylib',
+      '/usr/lib/libxml2.dylib', '/usr/lib/libz.dylib'
+    ]
+    
+    motion.resources_dir = File.join(root_path, 'resources')
+  end if gem.respond_to?(:motion)
 end
